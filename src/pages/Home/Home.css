@@ -1,6 +1,7 @@
 #home-image{
   width:500px;
   animation: jump 3s infinite 0s;
+  animation: appear 2s ease-in 0s;
  }
 .home-main-page{
   align-items: center;
@@ -22,6 +23,7 @@
 }
 #heading-first{
   font-size: 35px;
+  animation: appear 2s ease-in 0s;
   
 }
 #diff-color{
@@ -29,16 +31,22 @@
 }
 #info{
   font-size: 10px;
+  animation: appear 3.5s ease-in 0s;
 }
 #home-btn{
   width:100px;
   height:30px;
- 
   margin-top:30px;
   border:none;
   border-radius: 15%;
   color:rgb(255, 251, 251);
   background-color: rgb(33, 33, 33);
+  transition:transform 0.5s ease-in-out 0s;
+  animation: appear 4s ease-in 0s;
+}
+#home-btn:hover{
+  transform:translateY(-10%);
+  box-shadow: 4px 0px 5px 0px rgb(102, 102, 102);
 }
 
 @keyframes jump{
@@ -50,5 +58,17 @@
   }
   100%{
     transform:translateY(-4%);
+  }
+}
+
+@keyframes appear {
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity:0.5;
+  }
+  100%{
+    opacity:1;
   }
 }

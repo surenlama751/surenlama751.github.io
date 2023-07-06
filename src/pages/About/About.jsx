@@ -2,17 +2,18 @@ import './About.css';
 import Aboutimage from './About.webp';
 import Video from './video.jpg';
 import Suren from './suren.png';
+import { HashLink as Link } from 'react-router-hash-link';
 const About = () => {
   return(
     <div id="about">
-      <span id="title-about-page">ABOUT US</span>
+      <span id="title-about-page" data-text="ABOUT US">ABOUT US</span>
     <div className="about-main-page">
       
       <div className="first-about-column">
         <span id="about-intro">Front End Developer</span><br/>
         <span id="about-sec-intro">Front-End Developer | React.js & Kotlin</span><br/>
         <span id="about-third-intro">Welcome to my portfolio! I'm a front-end <br/>developer proficient in React.js and Kotlin<br/> basics. I create dynamic and responsive user<br/> interfaces with a focus on clean code and <br/>seamless user experiences. Check out my<br/> projects and let's build something amazing <br/>together!</span><br/>
-        <button id="about-btn">ABOUT US</button>
+       <Link smooth to='/#about-name' id="aboutus-button"> <button id="about-btn">ABOUT US</button></Link>
       </div>
       <div className="second-about-column">
         <div className="forimage">
@@ -32,7 +33,7 @@ const About = () => {
       <div className="mid-info">
         <span id="about-name">SUREN LAMA</span>
         <span id="middle-information">Experienced front-end developer skilled in React.js and foundational knowledge of Kotlin. I specialize in crafting dynamic and intuitive user interfaces using React.js, leveraging its component-based architecture and state management. With a keen eye for detail and a passion for clean code, I strive to deliver high-quality and performant web applications. Additionally, </span><br/>
-        <button id="more-reading">MORE..</button>
+        <Link smooth to ='#suren-image'><button id="more-reading">MORE..</button></Link>
       </div>
       <div className="actual-video">
       <iframe width="200" height="200" src="https://www.youtube.com/embed/WcIcVapfqXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
