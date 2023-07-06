@@ -4,7 +4,7 @@ import Video from './video.jpg';
 import Suren from './suren.png';
 const About = () => {
   return(
-    <div>
+    <div id="about">
       <span id="title-about-page">ABOUT US</span>
     <div className="about-main-page">
       

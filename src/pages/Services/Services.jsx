@@ -2,7 +2,7 @@ import {FaHtml5, FaCss3Alt,FaJsSquare,FaReact,FaKorvue} from "react-icons/fa";
 import './Services.css';
 const Service = () => {
   return (
-    <div className="service-main">
+    <div className="service-main" id="services">
       <span id="service-title">MY SKILLS</span>
       <div className="service-skills">
         <div className="service-icons">

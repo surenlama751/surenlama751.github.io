@@ -3,17 +3,17 @@ import Logo from './1.png';
 import './Navbar.css';
 import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from 'react';
-import {Link} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   const changeIcon = () => {
     setOpenMenu(!openMenu)
-
-  
-
   }
  
+  const handleChange = () =>{
+    setOpenMenu(false);
+  }
  
   
   return(
@@ -27,11 +27,11 @@ const Navbar = () => {
       </button>
       {openMenu &&(
         <nav className='nav-pages'>
-          <Link to ="/" className="pages">HOME</Link>
-          <Link to ="/about" className="pages">ABOUT</Link>
-          <Link to ="/contact" className="pages">SERVICE</Link>
-          <Link to ="/projects" className="pages">PROJECTS</Link>
-          <Link to ="/contact" className="pages">CONTACT</Link>
+          <Link smooth to ="/#home" className="pages" onClick={handleChange}>HOME</Link>
+          <Link smooth to ="/#about" className="pages" onClick={handleChange}>ABOUT</Link>
+          <Link smooth to ="/#services" className="pages" onClick={handleChange}>SERVICE</Link>
+          <Link smooth to ="/#projects" className="pages" onClick={handleChange}>PROJECTS</Link>
+          <Link smooth to ="/#contact" className="pages" onClick={handleChange}>CONTACT</Link>
         </nav>
       )}
       </div>

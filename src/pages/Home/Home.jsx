@@ -2,7 +2,7 @@ import './Home.css';
 import Main from './main1.jpg';
 const Home = () => {
   return(
-    <div className="home-main-page">
+    <div className="home-main-page" id="home">
       <div className="main-homeimage">
         <img src={Main} id="home-image" alt="planet"/>
       </div>

@@ -1,7 +1,7 @@
 import './Contact.css';
 const Contact = () => {
   return (
-    <div className="main-contact">
+    <div className="main-contact" id="contact">
       <div className="contact-main-page">
     <span id="contact-title">CONTACT US</span>
       <span id="contact-info">Need a front-end developer? Look no further! Our team of skilled front-end developers is ready to bring your website to life. From responsive designs to smooth user experiences, we've got you covered. Reach out to us today and let's collaborate to create something amazing</span>

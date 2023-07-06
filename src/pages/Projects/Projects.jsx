@@ -6,7 +6,7 @@ import './Projects.css';
 import {Link} from 'react-router-dom';
 const Projects = () => {
   return (
-    <div className="main-project-page">
+    <div className="main-project-page" id="projects">
       <span id="projects-title">MY PROJECTS</span>
     
     <div className="main-projects">
