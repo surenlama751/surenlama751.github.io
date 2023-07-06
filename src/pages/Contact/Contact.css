@@ -1,0 +1,93 @@
+.main-contact{
+  background-color: rgb(171, 170, 170);
+  padding-top:50px;
+  padding-bottom:50px;
+  gap:20px;
+}
+.contact-main-page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#contact-info{
+  width:400px;
+  font-size: 10px;
+  margin-top:20px;
+  color: rgb(89, 89, 89);
+  word-spacing: 3px;
+}
+.main-contact-page{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+
+  
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  margin-top:50px;
+  
+}
+#fullname-contact{
+  width:200px;
+  height:50px;
+  border:none;
+  border-bottom: 3px solid rgb(62, 62, 62);
+  color:black;
+  background:transparent;
+  word-spacing: 2px;
+}
+#email-contact{
+  width:200px;
+  height:50px;
+  border:none;
+  border-bottom: 3px solid rgb(77, 77, 77);
+  color:black;
+  background:transparent;
+  word-spacing: 2px;
+}
+#message-contact{
+  width:200px;
+  height:100px;
+  border:none;
+  border-bottom: 3px solid rgb(77, 77, 77);
+  color:black;
+  background:transparent;
+  word-spacing: 2px;
+}
+#submit-button{
+  width:200px;
+  height:40px;
+  color:black;
+  background: transparent;
+  margin-top:15px;
+  
+}
+#submit-button:hover{
+  color:white;
+  background-color: rgb(125, 125, 125);
+}
+.google-map{
+  margin-top:50px;
+}
+
+#contact-title{
+  color:black;
+}
+
+.border-contact{
+  border:2px solid white;
+  width:700px;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  background-color:white;
+  gap:10px;
+  margin-top:20px;
+  
+}

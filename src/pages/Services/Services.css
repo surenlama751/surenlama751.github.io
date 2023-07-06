@@ -1,0 +1,75 @@
+.service-main{
+  background-color: rgb(220, 220, 220);
+  color:white;
+  padding-top:50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:50px;
+  overflow-x:hidden;
+}
+#service-title{
+  margin-bottom: 20px;
+  font-size:30px;
+}
+.service-skills{
+  display:flex;
+  gap:50px;
+}
+#service-icon1{
+  font-size: 150px;
+  color:orange;
+}
+#service-icon2{
+  font-size: 150px;
+  color:rgb(55, 55, 255);
+}
+#service-icon3{
+  font-size: 150px;
+  color:rgb(255, 255, 130);
+}
+#service-icon4{
+  font-size: 150px;
+  color:skyblue;
+}
+#service-icon5{
+  font-size: 150px;
+  color:rgb(210, 146, 210);
+}
+.service-icons{
+  display:flex;
+  flex-direction: column;
+  border:1px solid white;
+  padding:20px 20px 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+.icons-border{
+  border:1px solid white;
+}
+#service-buttons{
+    width:100px;
+    background:transparent;
+    color:white;
+    border:none;
+    border-radius: 10%;
+}
+#service-buttons:hover{
+  background-color:white;
+  
+  color:black;
+  cursor: pointer;
+}
+#seemore-button-service{
+  margin-top:50px;
+  width:100px;
+  height:50px;
+  color:white;
+  background: transparent;
+}
+#seemore-button-service:hover{
+  background-color:white;
+  color:black;
+  cursor: pointer;
+}
