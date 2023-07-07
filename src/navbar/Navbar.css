@@ -7,6 +7,7 @@
   position: fixed;
   background:transparent;
   z-index:999;
+  
 
 
 }
@@ -56,13 +57,14 @@
   display: flex;
   flex-direction: column;
   font-size: 50px;
-  margin-top:30px;
+  margin-top:60px;
   text-decoration: none;
   color:rgb(121, 121, 121);
   align-items: center;
   border-bottom: 2px solid grey;
   border-radius: 50%;
   transition:color 0.5s ease-in 0s;
+  
   
 }
 .pages:hover{
@@ -79,7 +81,7 @@
   height:90%;
   margin-top:400px;
   z-index:-1;
-  padding-top:150px;
+  padding-top:370px;
 
 }
 

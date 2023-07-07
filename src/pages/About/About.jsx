@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const About = () => {
   return(
     <div id="about">
-      <span id="title-about-page" data-text="ABOUT US">ABOUT US</span>
+      <span id="title-about-page" data-text="ABOUT US">ABOUT ME</span>
     <div className="about-main-page">
       
       <div className="first-about-column">
